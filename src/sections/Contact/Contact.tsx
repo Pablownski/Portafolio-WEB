@@ -75,7 +75,7 @@ export function Contact() {
             <p className="text-white/30 text-sm">¿Prefieres un documento?</p>
             <Button
               as="a"
-              href="/cv.html"
+              href={`${import.meta.env.BASE_URL}cv.html`}
               target="_blank"
               rel="noopener noreferrer"
               variant="secondary"
