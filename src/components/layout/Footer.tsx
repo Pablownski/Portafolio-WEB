@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Code2 } from 'lucide-react'
+import { Mail, Code2 } from 'lucide-react'
 import { GitHubIcon } from '@/components/ui/GitHubIcon'
 
 export function Footer() {
@@ -31,15 +31,7 @@ export function Footer() {
           >
             <Mail className="w-4 h-4" />
           </a>
-          <a
-            href="https://linkedin.com/in/juan-pablo-salguero"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn profile"
-            className="text-white/40 hover:text-white transition-colors"
-          >
-            <Linkedin className="w-4 h-4" />
-          </a>
+
         </div>
       </div>
     </footer>
