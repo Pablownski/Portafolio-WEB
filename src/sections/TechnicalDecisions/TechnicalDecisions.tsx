@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { SectionHeader } from '@/components/ui/SectionHeader'
-import { Layers, Zap, Shield, Smartphone, Cpu, Eye } from 'lucide-react'
+import { Layers, Zap, Smartphone, Cpu } from 'lucide-react'
 
 const DECISIONS = [
   {
