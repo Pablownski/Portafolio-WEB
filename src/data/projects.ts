@@ -18,7 +18,7 @@ export const projects: Project[] = [
     ],
     liveUrl: 'https://www.cuchito.live/juanpa/E-commerce',
     featured: true,
-    image: '/images/ecommerce.png',
+    image: `${import.meta.env.BASE_URL}images/ecommerce.png`,
   },
   {
     id: 'calculator',
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     ],
     liveUrl: 'https://www.cuchito.live/juanpa/Calculadora/',
     featured: false,
-    image: '/images/calculadora.png',
+    image: `${import.meta.env.BASE_URL}images/calculadora.png`,
   },
   {
     id: 'snake',
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     ],
     liveUrl: 'https://www.cuchito.live/juanpa/snake/',
     featured: false,
-    image: '/images/snake.png',
+    image: `${import.meta.env.BASE_URL}images/snake.png`,
   },
   {
     id: 'goat-ranker',
@@ -75,6 +75,6 @@ export const projects: Project[] = [
     ],
     liveUrl: 'https://www.cuchito.live/juanpa/proy1/',
     featured: false,
-    image: '/images/goat-ranker.png',
+    image: `${import.meta.env.BASE_URL}images/goat-ranker.png`,
   },
 ]

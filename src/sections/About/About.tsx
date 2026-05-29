@@ -45,7 +45,7 @@ export function About() {
               {/* Profile image */}
               <div className="relative w-full h-full rounded-full overflow-hidden gradient-border animate-glow">
                 <img
-                  src="/images/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                   alt="Juan Pablo Salguero"
                   className="w-full h-full object-cover"
                   onError={(e) => {
